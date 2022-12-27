@@ -2,15 +2,23 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <!-- <meta charset="utf-8"> -->
 
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes">
-    <meta name="theme-color" content="#febbbb">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes"> -->
+    <!-- <meta name="theme-color" content="#febbbb">
     <meta name=”viewport” content=”width=device-width, initial-scale=1.0″>
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=1200, initial-scale=1" />
+    <meta name="viewport" content="width=1200, initial-scale=1" /> -->
+    <!-- <meta name="viewport" content="width=device-width,initial-scale=1"/> -->
+    <html lang="en"><link type="text/css" rel="stylesheet" id="dark-mode-custom-link"><link type="text/css" rel="stylesheet" id="dark-mode-general-link"><style lang="en" type="text/css" id="dark-mode-custom-style"></style><style lang="en" type="text/css" id="dark-mode-native-style"></style><style lang="en" type="text/css" id="dark-mode-native-sheet"></style><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes">
+      <meta name="theme-color" content="#febbbb">
+      <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+      <link href="./GDI Income Calculator_files/css" rel="stylesheet">
+
     
     <title>GDI Income Calculator</title>
     <style>
@@ -68,15 +76,16 @@
       }
 
       h1 {
-        font-size: 1.5em;
+        font-size: 2em;
+        /* font-size: 50px; */
         margin: 0;
       }
 
       #main {
         display: block;
         margin: 0 auto;
-        width: 80%;
-        max-width: 1100px;
+        width: 85%;
+        max-width: 1200px;
         background: #e0f4d4;  
         font-family: 'Poppins';
         /* linear-gradient(to bottom right, #ffffff, #cdead6); */
@@ -191,16 +200,23 @@
       }
 
       #calculate {
-        float: left;
-        width: 10%;
-        font-size: 2.5em;
-        font-weight: 500;
+        /* width: 30%; */
+        /* height: 90px; */
+        padding: 3px;
+        float: center;
+        /* margin: auto; */
+        -webkit-text-size-adjust: none;
+        text-size-adjust: none;
+        /* height: 80px; */
+        /* style="height:90px;width:110px" */
+        font-size: 2.2em;
+        font-weight: 700;
         color: white;
-        background: linear-gradient(to bottom, #86cc3d, #069006);
+        background: linear-gradient(to bottom, #a1ea54, #21ac21);
         border: 1px solid #069006;
-        box-shadow: 0px 2px 14px 0px #333;
+        box-shadow: 0px 2px 10px 0px #333;
         cursor: pointer;
-        border-radius: 20px;
+        border-radius: 13px;
         font-family: 'Poppins';
       }
 
@@ -253,10 +269,10 @@
     <div id="main">
       <header>
         <center>
-              <img class="pull-left" src="https://github.com/IbrarBabar/demo_web_Host.github.io/blob/main/rsz_2.png?raw=true"  width="17%"  alt="Global Domains International, Inc. - Website.ws Logo" />
+              <img class="pull-left" src="https://github.com/IbrarBabar/demo_web_Host.github.io/blob/main/rsz_2-removebg-preview.jpg?raw=true"  width="17%"  alt="Global Domains International, Inc. - Website.ws Logo" />
 
         <center>
-          <h1 style="font-size: 50px" class="pull-right">Calculadora de ingresos</h1>
+          <h1 class="pull-right">Calculadora de ingresos</h1>
 
         <span class="clearfix"></span>
       </header>
@@ -275,7 +291,9 @@
         </label>
         <input type="submit" style="display: none;" />
       </form>
-      <button id="calculate" style="height:90px;width:110px">Ver</button>
+      <button type="submit" class="button" id="calculate" >Ver</button>
+      <!-- <submit value="Search" id="calculate" >Ver</submit> -->
+
       
       <div id="layers">
         <table>
@@ -335,7 +353,7 @@
       </div>
       <div class="clearfix">
         <span id="error-message">
-          Por favor, compruebe sus entradas y vuelva a intentarlo.
+          Por favor, comprueba tus cálculos y vuelve a intentarlo.
         </span>
       </div>
       <!-- <footer> -->
